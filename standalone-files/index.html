@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kingsmen's WebGL ASCII Video</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+  }
+  canvas { display: block; width: 100vw; height: 100vh; }
+  #ui {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    color: white;
+    font-family: monospace;
+    background: rgba(0,0,0,0.5);
+    padding: 8px;
+    border-radius: 4px;
+  }
+  button,input,select { margin-right: 6px; }
+</style>
+</head>
+<body>
+<div id="ui">
+  <input type="file" id="file" accept="video/*">
+  <button id="webcam">Use Webcam</button>
+  <label>Cols:<input id="cols" type="number" value="300" min="24" max="512"></label>
+  <label>Charset:
+    <select id="charset">
+      <option value="@%#*+=-:. ">High contrast</option>
+      <option value=" .:-=+*#%@">Light-to-dark</option>
+      <option value="█▓▒░ ">Blocks</option>
+      <option value="@#S%?*+;:,. ">Detailed</option>
+    </select>
+  </label>
+</div>
+
+<video id="video" autoplay playsinline muted style="display:none;"></video>
+<canvas id="glcanvas"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
