@@ -7,7 +7,10 @@ There is WebGL based ascii player which runs on browser directly. try it out
 
 You can watch a demo of the ASCII Player in action below:
 
-<video src="demo.mp4" controls width="600"></video>
+<!-- <video src="demo.mp4" controls width="600"></video> -->
+![Demo Video Screenshot](demo.gif)
+[Watch the demo video](demo.mp4)
+
 
 - Make interactive reels
 - More social media reach
