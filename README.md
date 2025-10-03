@@ -3,12 +3,15 @@
 This project manages and showcases marketing videos, including a feature to play videos as ASCII art in the console.
 There is WebGL based ascii player which runs on browser directly. try it out 
 
-## Features
+# Demo Video
 
-- Upload and manage video reels
-- Browse and search reels
-- Share reels with others
-- User authentication and profiles
+You can watch a demo of the ASCII Player in action below:
+
+<video src="demo.mp4" controls width="600"></video>
+
+- Make interactive reels
+- More social media reach
+- Fun to use in presentations
 - Play video files as ASCII art in the terminal
 
 ## Getting Started
@@ -34,6 +37,8 @@ There is WebGL based ascii player which runs on browser directly. try it out
 
 - Opencv
 - Python 
+- WebGL
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
